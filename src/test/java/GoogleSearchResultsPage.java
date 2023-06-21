@@ -15,7 +15,7 @@ public class GoogleSearchResultsPage {
         PageFactory.initElements(driver, this);
     }
 
-//    public String getFirstResultTitle() {
-//        return firstResultLink.getText();
-//    }
+    public String getFirstResultTitle() {
+        return firstResultLink.getText();
+    }
 }
